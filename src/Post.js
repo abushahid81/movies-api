@@ -13,7 +13,7 @@ function Post() {
 
     const imageurl= "https://image.tmdb.org/t/p/w500/";
 
-    const apiKey = "04261e1a9f01e88de05171293dec7ae8";
+    const apiKey = process.env.REACT_APP_API_KEY;
 
     useEffect  (()=>{
         axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
