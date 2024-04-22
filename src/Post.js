@@ -34,6 +34,7 @@ function Post() {
     <>
    <Container>
       <Row>
+        <h2 className='movie'>Hollywood Movies</h2>
         <input type="text" className='search' placeholder='Search the title'
         value={searchQuery}
         onChange={event => setsearchQuery(event.target.value)}/>

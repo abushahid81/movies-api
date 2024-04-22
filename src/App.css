@@ -4,6 +4,9 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.movie{
+  text-align: center;
+}
 .search{
   margin-bottom: 50px;
   border-radius: 10px;
