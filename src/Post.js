@@ -23,6 +23,7 @@ function Post() {
         })
        },[]);  
        // [] - component did mount -(life Cycle)
+       
        useEffect(()=>{
         const filtered = movies.filter(abu =>
             abu.title.toLowerCase().includes(searchQuery.toLowerCase())
