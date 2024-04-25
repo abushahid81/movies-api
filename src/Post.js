@@ -21,7 +21,7 @@ function Post() {
            setMovies(response.data.results);
         //    console.log(response.data.results);
         })
-       },[]);  
+       },[apiKey]);  
        // [] - component did mount -(life Cycle)
        
        useEffect(()=>{
