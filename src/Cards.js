@@ -12,7 +12,8 @@ function Cards({index, title, release_date,  poster_path,}) {
         <Card.Text>
           {(release_date).slice(0,100)}
         </Card.Text>
-        <Button variant="primary">Show Detail</Button>
+        {/* <Button variant="primary">Show Detail</Button> */}
+      <Button variant="danger">Show Detail</Button>
       </Card.Body>
     </Card>
     </Col>
